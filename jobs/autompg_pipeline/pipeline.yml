@@ -19,7 +19,7 @@ jobs:
       test_data:
         mode: upload
     code: src/data_prep
-    environment: greatlearning:AzureML-sklearn-1.0-ubuntu20.04-py38-cpu@latest
+    environment: azureml:AzureML-sklearn-1.0-ubuntu20.04-py38-cpu@latest
     compute: greatlearning:c0021
     command: >-
       python prep.py 
